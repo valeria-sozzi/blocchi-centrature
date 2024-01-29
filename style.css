@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+}
+
+.img-rome{
+    background-image: url("img/roma.webp");
+    background-size: cover;
+    background-position: center;
+    height: 40vh;
+    width: 50vw;
+    margin: auto;
+    position: relative;
+    border: 2px solid black;
+}
+
+.layover{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px;
+    border: 2px solid black;
+    text-align: center;
+    
+}
+
+.text-rome{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 25px;
+    color: rgb(255, 0, 0);
+}
+
+.img-valencia{
+    background-image: url("img/valencia.jpeg");
+    background-size: cover;
+    background-position: center;
+    height: 40vh;
+    width: 50vw;
+    margin: auto;
+    position: relative;
+    border: 2px solid black;
+}
+
+.text-valencia{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 25px;
+    color: rgb(0, 187, 255);
+}
+
+.img-istanbul{
+    background-image: url("img/istanbul.webp");
+    background-size: cover;
+    background-position: center;
+    height: 40vh;
+    width: 50vw;
+    margin: auto;
+    position: relative;
+    border: 2px solid black;
+}
+
+.text-istanbul{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 25px;
+    color: rgb(0, 255, 0);
+}
+
